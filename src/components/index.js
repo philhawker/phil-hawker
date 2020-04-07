@@ -15,9 +15,9 @@ import python from '../assets/images/python.png'
 import sqlite from '../assets/images/sqlite.png'
 import react from '../assets/images/react.png'
 import git from '../assets/images/git.png'
-import Header from '../components/header'
-import Layout from '../components/layout'
-import Nav from '../components/nav'
+import Header from './header'
+import Layout from './layout'
+import Nav from './nav'
 import Icons from '../helpers/icons'
 
 
