@@ -9,7 +9,6 @@ import reducers from "./reducers";
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 import "./style/main.scss"
-import "./assets/css/main.scss"
 
 function main() {
   ReactDOM.render(
