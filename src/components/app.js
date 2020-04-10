@@ -21,7 +21,7 @@ import Nav from './nav'
 import Icons from '../helpers/icons'
 
 
-class Index extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props)
 
@@ -221,5 +221,5 @@ class Index extends React.Component {
   }
 }
 
-export default Index
+export default App
 
