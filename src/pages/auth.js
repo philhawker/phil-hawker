@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Login from '../components/auth/login'
-import loginImg from '../assets/images/logo.svg'
+import loginImg from '../../static/assets/images/logo.svg'
 
 
 export default class Auth extends Component {
