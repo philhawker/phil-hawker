@@ -5,7 +5,7 @@ import axios from "axios"
 import NavigationContainer from './navigation-container';
 import Auth from '../pages/auth'
 import Footer from './Footer'
-import '../assets/scss/main.scss'
+import '../assets/scss/sub-main.scss'
 
 class Template extends React.Component {
     constructor(props) {
