@@ -1,7 +1,4 @@
 import React from 'react'
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FortAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash, faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import phil from '../../static/assets/images/phil.jpg'

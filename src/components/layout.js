@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import axios from "axios"
 
 import NavigationContainer from './navigation-container';
@@ -7,7 +7,7 @@ import Auth from '../pages/auth'
 import Footer from './Footer'
 import '../assets/scss/sub-main.scss'
 
-class Template extends React.Component {
+class Template extends Component {
     constructor(props) {
         super(props);
         this.state = {
