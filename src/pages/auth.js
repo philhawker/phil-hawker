@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Login from '../components/auth/login'
-import loginImg from '../../static/assets/images/login.jpg'
 
 
 export default class Auth extends Component {
@@ -30,9 +29,7 @@ export default class Auth extends Component {
             <div id='auth' className='auth-page-wrapper'>
                 <div
                     className='left-column'
-                    style={{
-                        backgroundImage: `url(${loginImg})`
-                    }}
+
                 />
 
                 <div className='right-column'>
