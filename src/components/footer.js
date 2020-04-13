@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => (
+const Footer = (props) => (
   <footer id="footer" style={{ display: "flex", justifyContent: "center" }}>
     <section style={{ alignItems: "center" }}>
       <h2>Contact Me</h2>

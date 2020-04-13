@@ -1,52 +1,43 @@
-import React from 'react'
-import Helmet from 'react-helmet'
-import { Waypoint } from 'react-waypoint'
-import phil from '../../static/assets/images/phil.jpg'
-import scss from '../../static/assets/images/scss.png'
-import css from '../../static/assets/images/css.png'
-import html from '../../static/assets/images/html.png'
-import js from '../../static/assets/images/js.png'
-import mongo from '../../static/assets/images/mongo.png'
-import mysql from '../../static/assets/images/mysql.png'
-import python from '../../static/assets/images/python.png'
-import sqlite from '../../static/assets/images/sqlite.png'
-import react from '../../static/assets/images/react.png'
-import git from '../../static/assets/images/git.png'
-import Header from './header'
-import Layout from './layout'
-import Nav from './nav'
-import Icons from '../helpers/icons'
-
+import React from "react";
+import Helmet from "react-helmet";
+import { Waypoint } from "react-waypoint";
+import phil from "../../static/assets/images/phil.jpg";
+import scss from "../../static/assets/images/scss.png";
+import css from "../../static/assets/images/css.png";
+import html from "../../static/assets/images/html.png";
+import js from "../../static/assets/images/js.png";
+import mongo from "../../static/assets/images/mongo.png";
+import mysql from "../../static/assets/images/mysql.png";
+import python from "../../static/assets/images/python.png";
+import sqlite from "../../static/assets/images/sqlite.png";
+import react from "../../static/assets/images/react.png";
+import git from "../../static/assets/images/git.png";
+import Header from "./header";
+import Layout from "./layout";
+import Nav from "./nav";
+import Icons from "../helpers/icons";
 
 class App extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
 
-    Icons()
-
+    Icons();
 
     this.state = {
       stickyNav: false,
-
-    }
-
-
+    };
   }
   _handleWaypointEnter = () => {
-    this.setState(() => ({ stickyNav: false }))
-  }
+    this.setState(() => ({ stickyNav: false }));
+  };
 
   _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }))
-  }
-
+    this.setState(() => ({ stickyNav: true }));
+  };
 
   render() {
     return (
       <Layout>
-
-
-
         <Helmet title="Phil Hawker's Portfolio" />
 
         <Header />
@@ -56,7 +47,6 @@ class App extends React.Component {
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
         <Nav sticky={this.state.stickyNav} />
-
 
         <div id="main">
           <section id="about" className="main">
@@ -71,7 +61,6 @@ class App extends React.Component {
                   ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
                   ipsum dolor sit amet aliquam.
                 </p>
-
               </div>
               <span className="image">
                 <img src={phil} alt="" />
@@ -110,113 +99,123 @@ class App extends React.Component {
               </li>
             </ul>
             <footer className="major">
-              <ul className="actions">
-
-              </ul>
+              <ul className="actions"></ul>
             </footer>
           </section>
 
           <section id="talents" className="main special">
             <header className="major">
               <h2>Talents</h2>
-
             </header>
-            <ul className="statistics" >
+            <ul className="statistics">
               <li>
-                <span >
-                  <img src={python} alt="" style={{ width: '100%', height: '150px' }} />
+                <span>
+                  <img
+                    src={python}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>Python</strong>
               </li>
               <li>
-                <span >
-                  <img src={js} alt="" style={{ width: '100%', height: '150px' }} />
+                <span>
+                  <img
+                    src={js}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>JavaScript</strong>
               </li>
               <li>
-                <span >
-                  <img src={html} alt="" style={{ width: '100%', height: '150px' }} />
+                <span>
+                  <img
+                    src={html}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>Html</strong>
               </li>
               <li>
-                <span >
-                  <img src={react} alt="" style={{ width: '100%', height: '150px' }} />
+                <span>
+                  <img
+                    src={react}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>React</strong>
               </li>
               <li>
-                <span >
-                  <img src={mongo} alt="" style={{ width: '100%', height: '150px' }} />
+                <span>
+                  <img
+                    src={mongo}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>MongoDB</strong>
               </li>
             </ul>
-            <ul className='statistics'>
-              <li >
-                <span >
-                  <img src={mysql} alt="" style={{ width: '100%', height: '150px' }} />
+            <ul className="statistics">
+              <li>
+                <span>
+                  <img
+                    src={mysql}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>MySQL</strong>
               </li>
               <li>
-                <span >
-                  <img src={sqlite} alt="" style={{ width: '100%', height: '150px' }} />
+                <span>
+                  <img
+                    src={sqlite}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>SQLite</strong>
               </li>
-              <li >
-                <span >
-                  <img src={scss} alt="" style={{ width: '100%', height: '150px' }} />
+              <li>
+                <span>
+                  <img
+                    src={scss}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>Scss</strong>
               </li>
-              <li >
-                <span >
-                  <img src={css} alt="" style={{ width: '100%', height: '150px' }} />
+              <li>
+                <span>
+                  <img
+                    src={css}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>Css</strong>
               </li>
-              <li >
-                <span >
-                  <img src={git} alt="" style={{ width: '100%', height: '150px' }} />
+              <li>
+                <span>
+                  <img
+                    src={git}
+                    alt=""
+                    style={{ width: "100%", height: "150px" }}
+                  />
                 </span>
                 <strong>Git</strong>
               </li>
             </ul>
-
-            <footer className="major">
-              <ul className="actions">
-
-              </ul>
-            </footer>
-          </section>
-
-          <section id="resume" className="main special">
-            <header className="major">
-              <h2>Resume</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
-            </header>
-          </section>
-
-          <section id='contact'>
-            <footer className="major">
-              <ul className="actions">
-
-
-              </ul>
-            </footer>
           </section>
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default App
-
+export default App;
