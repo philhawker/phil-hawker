@@ -4,8 +4,8 @@ import axios from "axios";
 
 import NavigationContainer from "./navigation-container";
 import Auth from "../pages/auth";
-import Footer from "./Footer";
 import "../assets/scss/sub-main.scss";
+import Footer from "./footer";
 
 class Template extends Component {
   constructor(props) {
@@ -99,10 +99,7 @@ class Template extends Component {
           </div>
         </Router>
 
-        <div id="wrapper">
-          {children}
-          <Footer />
-        </div>
+        <div id="wrapper">{children}</div>
       </div>
     );
   }

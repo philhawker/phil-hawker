@@ -16,6 +16,7 @@ import Header from "./header";
 import Layout from "./layout";
 import Nav from "./nav";
 import Icons from "../helpers/icons";
+import Footer from "./footer";
 
 class App extends React.Component {
   constructor(props) {
@@ -211,8 +212,26 @@ class App extends React.Component {
                 <strong>Git</strong>
               </li>
             </ul>
+
+            <footer className="major">
+              <ul className="actions"></ul>
+            </footer>
+          </section>
+
+          <section id="resume" className="main special">
+            <header className="major">
+              <h2>Resume</h2>
+              <p>
+                Donec imperdiet consequat consequat. Suspendisse feugiat congue
+                <br />
+                posuere. Nulla massa urna, fermentum eget quam aliquet.
+              </p>
+            </header>
           </section>
         </div>
+        <section id="contact">
+          <Footer />
+        </section>
       </Layout>
     );
   }
