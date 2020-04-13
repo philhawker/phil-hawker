@@ -1,44 +1,35 @@
-import React, { Component } from 'react'
-import Login from '../components/auth/login'
-
+import React, { Component } from "react";
+import Login from "../components/auth/login";
 
 export default class Auth extends Component {
-    constructor(props) {
-        super(props)
+  constructor(props) {
+    super(props);
 
-        this.handleSuccessfulAuth = this.handleSuccessfulAuth.bind(this)
-        this.handleUnsuccessfulAuth = this.handleUnsuccessfulAuth.bind(this)
+    this.handleSuccessfulAuth = this.handleSuccessfulAuth.bind(this);
+    this.handleUnsuccessfulAuth = this.handleUnsuccessfulAuth.bind(this);
+  }
 
-    }
+  handleSuccessfulAuth() {
+    this.props.handleSuccessfulLogin();
+    this.props.history.push("/");
+  }
 
+  handleUnsuccessfulAuth() {
+    this.props.handleUnsuccessfulLogin();
+  }
 
+  render() {
+    return (
+      <div id="auth" className="auth-page-wrapper">
+        <div className="left-column" />
 
-
-
-    handleSuccessfulAuth() {
-        this.props.handleSuccessfulLogin()
-        this.props.history.push('/')
-    }
-
-    handleUnsuccessfulAuth() {
-        this.props.handleUnsuccessfulLogin()
-    }
-
-    render() {
-        return (
-            <div id='auth' className='auth-page-wrapper'>
-                <div
-                    className='left-column'
-
-                />
-
-                <div className='right-column'>
-                    <Login
-                        handleSuccessfulAuth={this.handleSuccessfulAuth}
-                        handleUnsuccessfulAuth={this.handleUnsuccessfulAuth}
-                    />
-                </div>
-            </div>
-        )
-    }
+        <div className="right-column">
+          <Login
+            handleSuccessfulAuth={this.handleSuccessfulAuth}
+            handleUnsuccessfulAuth={this.handleUnsuccessfulAuth}
+          />
+        </div>
+      </div>
+    );
+  }
 }

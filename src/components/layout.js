@@ -5,7 +5,6 @@ import axios from "axios";
 import NavigationContainer from "./navigation-container";
 import Auth from "../pages/auth";
 import "../assets/scss/sub-main.scss";
-import Footer from "./footer";
 
 class Template extends Component {
   constructor(props) {
