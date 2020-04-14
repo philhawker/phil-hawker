@@ -12,9 +12,9 @@ import python from "../../static/assets/images/python.png";
 import sqlite from "../../static/assets/images/sqlite.png";
 import react from "../../static/assets/images/react.png";
 import git from "../../static/assets/images/git.png";
-import Header from "./header";
-import Layout from "./layout";
-import Nav from "./nav";
+import Header from "../pages/header";
+import Layout from "../pages/layout";
+import Nav from "../pages/nav";
 import Icons from "../helpers/icons";
 
 class App extends React.Component {
