@@ -16,7 +16,6 @@ import Header from "./header";
 import Layout from "./layout";
 import Nav from "./nav";
 import Icons from "../helpers/icons";
-import Footer from "./footer";
 
 class App extends React.Component {
   constructor(props) {
@@ -229,9 +228,7 @@ class App extends React.Component {
             </header>
           </section>
         </div>
-        <section id="contact">
-          <Footer />
-        </section>
+        <section id="contact"></section>
       </Layout>
     );
   }
