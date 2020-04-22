@@ -1,7 +1,7 @@
 import React from "react";
 
-const Footer = () => (
-  <Footer id="footer" style={{ display: "flex", justifyContent: "center" }}>
+const footer = () => (
+  <footer id="footer" style={{ display: "flex", justifyContent: "center" }}>
     <section style={{ alignItems: "center" }}>
       <h2>Contact Me</h2>
       <dl className="alt">
@@ -55,7 +55,7 @@ const Footer = () => (
     >
       &copy; 2020 Phil Hawker &#124; All Rights Reserved.
     </p>
-  </Footer>
+  </footer>
 );
 
 export default Footer;
