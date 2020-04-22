@@ -1,6 +1,6 @@
 import React from 'react'
 import Scrollspy from 'react-scrollspy'
-import Scroll from './Scroll'
+import Scroll from './scroll'
 
 const Nav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
