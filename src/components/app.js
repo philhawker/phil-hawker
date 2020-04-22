@@ -12,10 +12,11 @@ import python from "../../static/assets/images/python.png";
 import sqlite from "../../static/assets/images/sqlite.png";
 import react from "../../static/assets/images/react.png";
 import git from "../../static/assets/images/git.png";
-import Header from "../pages/header";
-import Layout from "../pages/layout";
-import Nav from "../pages/nav";
+import Header from "./header";
+import Layout from "./layout";
+import Nav from "./nav";
 import Icons from "../helpers/icons";
+import Footer from "./footer";
 
 class App extends React.Component {
   constructor(props) {
@@ -228,7 +229,9 @@ class App extends React.Component {
             </header>
           </section>
         </div>
-        <section id="contact"></section>
+        <section id="contact">
+          <Footer />
+        </section>
       </Layout>
     );
   }

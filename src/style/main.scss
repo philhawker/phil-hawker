@@ -1,71 +1,9 @@
-@import "./vars";
-@import "./functions";
-@import "./mixins";
-@import "./skel";
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&family=Quantico&family=Source+Code+Pro&display=swap");
-@import url("https://kit.fontawesome.com/017139aa8d.js");
-
-@include skel-breakpoints(
-  (
-    xlarge: "(max-width: 1680px)",
-    large: "(max-width: 1280px)",
-    medium: "(max-width: 980px)",
-    small: "(max-width: 736px)",
-    xsmall: "(max-width: 480px)",
-    xxsmall: "(max-width: 360px)",
-  )
-);
-
-@include skel-layout(
-  (
-    reset: "full",
-    boxModel: "border",
-    grid: (
-      gutters: 1.5em,
-    ),
-    breakpoints: (
-      small: (
-        grid: (
-          gutters: 1em,
-        ),
-      ),
-    ),
-  )
-);
-
-@mixin color($p) {
-  @include color-typography($p);
-  @include color-box($p);
-  @include color-button($p);
-  @include color-form($p);
-  @include color-icon($p);
-  @include color-list($p);
-  @include color-section($p);
-  @include color-table($p);
-  @include color-spotlight($p);
-}
-
-@import "./page";
-@import "./typography";
-@import "./box";
-@import "./button";
-@import "./form";
-@import "./icon";
-@import "./image";
-@import "./list";
-@import "./section";
-@import "./table";
-@import "./features";
-@import "./statistics";
-@import "./spotlight";
-@import "./header";
-@import "./nav";
-@import "./main";
-@import "./footer";
-@import "./wrapper";
+@import "../assets/scss/sub-main.scss";
 @import "./variables.scss";
 @import "./mixins.scss";
 @import "./base.scss";
 @import "./forms.scss";
+@import "./grid.scss";
 @import "./navigation.scss";
 @import "./layouts.scss";
+@import "./auth.scss";
