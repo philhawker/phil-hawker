@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => (
+const footer = () => (
   <footer id="footer" style={{ display: "flex", justifyContent: "center" }}>
     <section style={{ alignItems: "center" }}>
       <h2>Contact Me</h2>
@@ -58,4 +58,4 @@ const Footer = () => (
   </footer>
 );
 
-export default Footer;
+export default footer;
