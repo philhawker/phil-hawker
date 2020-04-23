@@ -17,6 +17,7 @@ import Layout from "./layout";
 import Nav from "./nav";
 import Icons from "../helpers/icons";
 import Footer from "./footer";
+import fries from "../../static/assets/images/fantasticfries.png"
 
 class App extends React.Component {
   constructor(props) {
@@ -91,11 +92,10 @@ class App extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
+                <span><img src={fries} style={{ height: "200px", borderRadius: "20px" }} /></span>
+                <h3 style={{ paddingTop: "90px" }}><a href="https://philhawker-fries.netlify.app/">Fantastic Fries</a></h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  A dynamic and responsive restaurant website that I built while attending Bottega.
                 </p>
               </li>
             </ul>
