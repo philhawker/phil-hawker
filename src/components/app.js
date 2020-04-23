@@ -57,7 +57,7 @@ class App extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>
-                  <p>Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. It was everything from rebuilting a motorcycle engine to upgrading the family computer's ram to 512 MB! Even as an adult, successfully assembling my daughters crib is chalked up as a win for me. </p>
+                  <p>Ever since i was about 12 years old, I discovered a fascination with building something and actually seeing it function the way I had intended it to. It was everything from rebuilding a motorcycle engine to upgrading the family computer's ram to 512 MB! Even as an adult, successfully assembling my daughters crib is chalked up as a win for me. </p>
                   <p>I've always felt that these traits I had discovered were critical components to my overall happiness and success in my career, however, I had no idea what field these should be applied to. Until I took a leap of faith and began my development journey.</p>
                   <p>I attended Bottega Tech's full time, 12 week, Full-Stack Engineering course. And it was hardcore! I love working with many different frameworks and libraries such as Flask, Django, Node, and most of all React. If I'm not consumed by a development project, then I'll most definitely be riding motocross, eating at an awesome restaurant, or sitting in front of my PC and enjoying some kind of game with an incredible single player experience.</p>
                   <p>I consider myself a down-to-earth nerd</p>
