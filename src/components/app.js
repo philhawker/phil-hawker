@@ -92,7 +92,7 @@ class App extends React.Component {
                 </p>
               </li>
               <li>
-                <span><img src={fries} style={{ height: "200px", borderRadius: "20px" }} /></span>
+                <span><img src={fries} style={{ height: "200px", borderRadius: "500px" }} /></span>
                 <h3 style={{ paddingTop: "90px" }}><a href="https://philhawker-fries.netlify.app/">Fantastic Fries</a></h3>
                 <p>
                   A dynamic and responsive restaurant website that I built while attending Bottega.
