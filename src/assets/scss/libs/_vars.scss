@@ -30,17 +30,20 @@ $font: (
 $palette: (
 	bg: black,
 	fg: rgba(255, 255, 255, 0.65),
-	fg-bold: #94e423,
+	fg-bold: #4fb6b1,
 	fg-light: rgba(253, 252, 252, 0.5),
 	border: rgba(255, 255, 255, 0.35),
 	border-bg: rgba(255, 255, 255, 0.075),
 	border2: rgba(255, 255, 255, 0.75),
 	border2-bg: rgba(255, 255, 255, 0.2),
 	invert: (
-		bg: #ffffff,
-		bg-alt: #f7f7f7,
+		//main card background and highlighted navbar tab
+			bg: #d1e8e2,
+		// navbar color
+			bg-alt: #88bbd6,
 		fg: #636363,
-		fg-bold: #94e423,
+		//main card title headings
+			fg-bold: #4fb6b1,
 		fg-light: rgba(99, 99, 99, 0.25),
 		border: #dddddd,
 		border-bg: rgba(222, 222, 222, 0.25),
@@ -53,6 +56,8 @@ $palette: (
 	accent3: #6b6e70,
 	accent4: #61892f,
 	accent5: #77af31,
-	bg1: #6b6e70,
-	bg2: #222629,
+	//bottom corner portion background fade
+		bg1: rgba(17, 100, 102, 0.8),
+	//top corner portion background fade
+		bg2: #2c3531,
 );
