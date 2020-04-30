@@ -19,7 +19,7 @@
 	border-top-right-radius: _size(border-radius-main);
 	cursor: default;
 	text-align: center;
-	box-shadow: 5px 10px 10px 0px rgba(153, 189, 219, 0.3);
+	box-shadow: 5px 15px 10px -5px rgba(153, 189, 219, 0.3);
 
 	& + #main {
 		padding-top: 3em;
@@ -70,7 +70,7 @@
 	}
 	// after navbar has responded to scroll
 	&.alt {
-		box-shadow: 5px 10px 10px 0px rgba(153, 189, 219, 0.3);
+		box-shadow: 5px 15px 10px -5px rgba(153, 189, 219, 0.3);
 
 		position: fixed;
 		top: 0;
