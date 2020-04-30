@@ -47,7 +47,8 @@ $palette: (
 			fg-bold: #00cb79,
 		fg-light: rgba(99, 99, 99, 0.25),
 		border: #dddddd,
-		border-bg: rgba(222, 222, 222, 0.25),
+		// active background hover color for navbar selections
+			border-bg: #fafafa,
 		border2: #dddddd,
 		border2-bg: rgba(222, 222, 222, 0.5),
 	),
