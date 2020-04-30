@@ -5,7 +5,7 @@ const footer = () => (
     <section style={{ alignItems: "center", color: "white" }}>
       <h2 style={{ color: "white" }}>Contact Me</h2>
       <dl className="alt">
-        <dt style={{ color: "rgb(153, 189, 219" }} >Phone</dt>
+        <dt style={{ color: "rgb(131, 164, 190)" }} >Phone</dt>
         <dd>(801) 874-0022</dd>
         <dt>Email</dt>
         <dd>philhawker90@gmail.com</dd>
