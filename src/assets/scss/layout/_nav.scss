@@ -51,10 +51,9 @@
 				border-radius: _size(border-radius);
 
 				&:hover {
-					// color: rgb(153, 189, 219);
 					color: white;
 					box-shadow: none;
-					background-color: rgba(0, 203, 121, 0.5);
+					background-color: rgb(153, 189, 219);
 					transition: ease-in-out 0.5s;
 				}
 
@@ -65,7 +64,7 @@
 			&.is-active {
 				a {
 					color: white;
-					background-color: rgba(0, 203, 121, 0.5);
+					background-color: rgb(153, 189, 219);
 					box-shadow: none;
 				}
 			}

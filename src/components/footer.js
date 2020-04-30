@@ -1,11 +1,11 @@
 import React from "react";
 
 const footer = () => (
-  <footer id="footer" style={{ display: "flex", justifyContent: "center" }}>
-    <section style={{ alignItems: "center" }}>
-      <h2>Contact Me</h2>
+  <footer id="footer" style={{ display: "flex", justifyContent: "center", color: "white" }}>
+    <section style={{ alignItems: "center", color: "white" }}>
+      <h2 style={{ color: "white" }}>Contact Me</h2>
       <dl className="alt">
-        <dt>Phone</dt>
+        <dt style={{ color: "rgb(153, 189, 219" }} >Phone</dt>
         <dd>(801) 874-0022</dd>
         <dt>Email</dt>
         <dd>philhawker90@gmail.com</dd>
