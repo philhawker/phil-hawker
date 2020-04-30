@@ -1,6 +1,8 @@
+// web page forward card holding content
 #main {
 	@include color(invert);
 	border-radius: _size(border-radius-main);
+	box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.2);
 
 	> .main {
 		@include padding(5em, 5em);
