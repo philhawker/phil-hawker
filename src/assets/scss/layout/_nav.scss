@@ -2,8 +2,8 @@
 	@include vendor(
 		"transition",
 		(
-			// "background-color #{_duration(transition)} ease",
-				"border-top-left-radius #{_duration(transition)} ease",
+			"background-color #{_duration(transition)} ease",
+			"border-top-left-radius #{_duration(transition)} ease",
 			"border-top-right-radius #{_duration(transition)} ease",
 			"padding #{_duration(transition)} ease"
 		)
@@ -22,7 +22,7 @@
 	box-shadow: 5px 10px 10px 0px rgba(153, 189, 219, 0.3);
 
 	& + #main {
-		padding-top: 5em;
+		padding-top: 3em;
 	}
 
 	ul {
@@ -36,7 +36,8 @@
 			margin: 0 2em;
 			padding: 0;
 			vertical-align: middle;
-			box-shadow: 5px 5px 10px 0px rgba(153, 189, 219, 0.3);
+			box-shadow: 5px 10px 10px 0px rgba(153, 189, 219, 0.3);
+
 			border-radius: _size(border-radius);
 
 			a {
@@ -51,29 +52,29 @@
 				border-radius: _size(border-radius);
 
 				&:hover {
-					box-shadow: 5px 10px 10px 0px rgba(153, 189, 219, 0.3);
+					box-shadow: 3px 3px 5px 0px rgba(153, 189, 219, 0.3);
 
-					transition: ease-in-out;
+					transition: ease-in-out 0.5s;
 				}
 
 				&.active {
-					transition: ease-in-out;
-					box-shadow: none;
+					box-shadow: 3px 3px 5px 0px rgba(153, 189, 219, 0.3);
 				}
 			}
 			&.is-active {
 				a {
-					transition: ease-in-out;
-					box-shadow: 5px 10px 10px 0px rgba(153, 189, 219, 0.3);
+					box-shadow: 3px 3px 5px 0px rgba(153, 189, 219, 0.3);
 				}
 			}
 		}
 	}
 	// after navbar has responded to scroll
 	&.alt {
+		box-shadow: 5px 10px 10px 0px rgba(153, 189, 219, 0.3);
+
 		position: fixed;
 		top: 0;
-		padding: 0.5em 1em;
+		padding: 1em 1em;
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
 		z-index: _misc(z-index-base);
