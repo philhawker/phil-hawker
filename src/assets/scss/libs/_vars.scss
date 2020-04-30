@@ -30,7 +30,7 @@ $font: (
 $palette: (
 	bg: black,
 	fg: rgba(255, 255, 255, 0.65),
-	fg-bold: #4fb6b1,
+	fg-bold: #00cb79,
 	fg-light: rgba(253, 252, 252, 0.5),
 	border: rgba(255, 255, 255, 0.35),
 	border-bg: rgba(255, 255, 255, 0.075),
@@ -39,11 +39,12 @@ $palette: (
 	invert: (
 		//main card background and highlighted navbar tab
 			bg: #fafafa,
-		// navbar color
-			bg-alt: #88bbd6,
-		fg: #636363,
+		// navbar background color
+			bg-alt: #99bddb,
+		// inactive navbar text and main card text
+			fg: #999999,
 		//main card title headings
-			fg-bold: #4fb6b1,
+			fg-bold: #00cb79,
 		fg-light: rgba(99, 99, 99, 0.25),
 		border: #dddddd,
 		border-bg: rgba(222, 222, 222, 0.25),
@@ -51,9 +52,11 @@ $palette: (
 		border2-bg: rgba(222, 222, 222, 0.5),
 	),
 	accent: #acf14b,
-	accent1: #61892f,
+	// projects left logo color
+		accent1: #99bddb,
 	accent2: #474b4f,
-	accent3: #6b6e70,
+	// projects center logo color
+		accent3: #99bddb,
 	accent4: #61892f,
 	accent5: #77af31,
 	//bottom corner portion background fade
