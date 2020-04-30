@@ -8,17 +8,18 @@
 			"padding #{_duration(transition)} ease"
 		)
 	);
-	@include color-typography(invert);
+	// @include color-typography(invert);
+	color: rgb(0, 203, 121);
 	position: absolute;
 	width: _size(inner);
 	max-width: calc(100% - #{_size(element-margin) * 2});
 	padding: 1em;
-	// background-color: _palette(invert, bg-alt);
 	background-color: #fafafa;
 	border-top-left-radius: _size(border-radius-main);
 	border-top-right-radius: _size(border-radius-main);
 	cursor: default;
 	text-align: center;
+	box-shadow: 0px 30px 20px -20px rgba(153, 189, 219, 0.3);
 
 	& + #main {
 		padding-top: 5em;
@@ -49,19 +50,16 @@
 
 				&:hover {
 					box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
-
 					transition: ease-in-out;
 				}
 
 				&.active {
-					// background-color: _palette(invert, bg);
 					transition: ease-in-out;
 					box-shadow: none;
 				}
 			}
 			&.is-active {
 				a {
-					// background-color: _palette(invert, bg);
 					transition: ease-in-out;
 					box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
 				}
@@ -73,7 +71,6 @@
 		position: fixed;
 		top: 0;
 		padding: 0.5em 1em;
-		// background-color: transparentize(_palette(invert, bg-alt), 0.05);
 		border-top-left-radius: 0;
 		border-top-right-radius: 0;
 		z-index: _misc(z-index-base);
