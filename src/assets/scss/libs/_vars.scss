@@ -42,17 +42,18 @@ $palette: (
 		// navbar background color
 			bg-alt: #99bddb,
 		// inactive navbar text and main card text
-			fg: #999999,
+			fg: #99bddb,
 		//main card title headings
 			fg-bold: #00cb79,
 		fg-light: rgba(99, 99, 99, 0.25),
 		border: #dddddd,
 		// active background hover color for navbar selections
 			border-bg: #fafafa,
-		border2: #dddddd,
+		// active text hover color for navbar selections
+			border2: #00cb79,
 		border2-bg: rgba(222, 222, 222, 0.5),
 	),
-	accent: #acf14b,
+	accent: #00cb79,
 	// projects left logo color
 		accent1: #99bddb,
 	accent2: #474b4f,
