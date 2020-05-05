@@ -228,8 +228,12 @@ class App extends React.Component {
               </p>
             </header>
           </section>
+
         </div>
-        <section id="contact">
+        <section id="contact" className="main special">
+          <header className="major">
+
+          </header>
           <Footer />
         </section>
       </Layout>
