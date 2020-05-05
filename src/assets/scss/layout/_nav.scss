@@ -14,7 +14,7 @@
 	width: _size(inner);
 	max-width: calc(100% - #{_size(element-margin) * 2});
 	padding: 1.5em;
-	background-color: #ebebeb;
+	background-color: #fcf7ff;
 	border-top-left-radius: _size(border-radius-main);
 	border-top-right-radius: _size(border-radius-main);
 	cursor: default;
@@ -42,7 +42,7 @@
 			a {
 				@include vendor("transition", ("font-size #{_duration(transition)} ease"));
 				box-shadow: 4px 5px 4px -2px rgba(23, 75, 119, 0.3);
-				background-color: #ebebeb;
+				background-color: #fcf7ff;
 				display: inline-block;
 				height: 2.25em;
 				line-height: 2.25em;
